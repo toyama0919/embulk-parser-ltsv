@@ -8,9 +8,8 @@
 
 ## Configuration
 
-- **option1**: description (integer, required)
-- **option2**: description (string, default: `"myvalue"`)
 - **null_value_pattern**: null value pattern. (string, default: `null`)
+- **null_empty_string**: empty to null. (bool, default: false)
 
 ## Example
 
@@ -18,7 +17,7 @@
 
 in:
   type: file
-  path_prefix: /Users/toyama-h/access_log-20150616.ltsv.gz
+  path_prefix: /tmp/access_log-20150616.ltsv.gz
   decoders:
   - {type: gzip}
   parser:
