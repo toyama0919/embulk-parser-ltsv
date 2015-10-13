@@ -1,7 +1,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "embulk-parser-ltsv"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["toyama0919"]
   spec.summary       = "Ltsv parser plugin for Embulk"
   spec.description   = "Parses Ltsv files read by other file input plugins."
